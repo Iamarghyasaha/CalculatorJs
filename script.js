@@ -16,6 +16,10 @@ function result(){
         }
     }
     document.getElementById("res").value= num2
+    // if we dont't want to handel the character error we can write the below code also
+    // var  num1 = document.getElementById("res").value;
+    // var num2 = eval(num1);
+    // document.getElementById("res").value= num2
 }
 function clr(){
     document.getElementById("res").value=" ";
